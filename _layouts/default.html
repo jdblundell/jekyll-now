@@ -16,23 +16,21 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
+    <div class="section header">
+  <div class="row">
+    <div class="col-sm-7">
+      <img src="{{ site.baseurl }}/images/DCCCDLogo.gif" alt="Dallas County Community College District" title="Dallas County Community College District">
     </div>
+    <div class="col-sm-5">
+      <a class="new-button" href="#">
+        <span class="blue">Donate<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
+      </a>
+      <a class="new-button" href="#">
+      <span class="blue">Legal<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
+    </a>
+  </div>
+</div>
+</div>
 
     <div id="main" role="main" class="container">
       {{ content }}
