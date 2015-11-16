@@ -16,18 +16,21 @@
     </head>
 
     <body>
+      <div class="container">
       <div class="section header">
         <div class="row">
           <div class="col-sm-7">
             <img src="{{ site.baseurl }}/images/DCCCDLogo.gif" alt="Dallas County Community College District" title="Dallas County Community College District">
           </div>
           <div class="col-sm-5 text-aligncenter">
+            <div class="header-buttons">
             <a class="new-button" href="#">
               <span class="blue">Donate<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
             </a>
             <a class="new-button" href="#">
               <span class="blue">Legal<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
             </a>
+          </div>
           </div>
         </div>
         <nav class="navbar navbar-default">
@@ -69,5 +72,6 @@
       </div>
 
       {% include analytics.html %}
+    </div>
     </body>
     </html>
