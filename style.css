@@ -19,3 +19,8 @@ body {
 .navbar-nav>li a:hover {
 	color:#0033a0;
 }
+
+.nav>li>a>img {
+    width: 25px;
+    margin-right: 8px;
+}
