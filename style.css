@@ -6,3 +6,16 @@ body {
     max-width: 1280px;
     margin: 10px auto 10px auto;
 }
+
+.row {
+	margin-bottom:1em;
+}
+
+.navbar-nav>li a, .navbar-nav>li a:visited {
+	font-size:1.5em;
+	color:#0099ff;
+}
+
+.navbar-nav>li a:hover {
+	color:#0033a0;
+}
