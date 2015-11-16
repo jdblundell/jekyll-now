@@ -2,17 +2,34 @@
 layout: default
 ---
 
+<div class="section header">
+	<div class="row">
+		<div class="col-sm-7">
+			<img class="https://www.dcccd.edu/Style Library/DCCCD/Media/DCCCDLogo.gif" alt="Dallas County Community College District" title="Dallas County Community College District">
+		</div>
+		<div class="col-sm-5">
+			<a class="new-button" href="#">
+				<span class="blue-border">Donate<img class="svgimg" id="https://www.dcccd.edu/icons/fa-arrow-right-white-circle.svg" src="https://www.dcccd.edu/icons/fa-arrow-right-white-circle.svg" alt=""></span>
+			</a>
+			<a class="new-button" href="#">
+			<span class="blue-border">Legal<img class="svgimg" id="https://www.dcccd.edu/icons/fa-arrow-right-white-circle.svg" src="https://www.dcccd.edu/icons/fa-arrow-right-white-circle.svg" alt=""></span>
+		</a>
+	</div>
+</div>
+</div>
+
+
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+	{% for post in site.posts %}
+	<article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+		<div class="entry">
+			{{ post.excerpt }}
+		</div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+	</article>
+	{% endfor %}
 </div>
