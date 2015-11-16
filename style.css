@@ -1,2 +1,8 @@
 @import "bootstrap.min.css";
 @import "IPTStyles.css";
+
+body {
+	width: 100%;
+    max-width: 1280px;
+    margin: 10px auto 10px auto;
+}

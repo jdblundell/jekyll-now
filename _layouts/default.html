@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+  {% include meta.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+      <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+      <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    </head>
 
-  <body>
-    <div class="section header">
-  <div class="row">
-    <div class="col-sm-7">
-      <img src="{{ site.baseurl }}/images/DCCCDLogo.gif" alt="Dallas County Community College District" title="Dallas County Community College District">
+    <body>
+      <div class="section header">
+        <div class="row">
+          <div class="col-sm-7">
+            <img src="{{ site.baseurl }}/images/DCCCDLogo.gif" alt="Dallas County Community College District" title="Dallas County Community College District">
+          </div>
+          <div class="col-sm-5">
+            <a class="new-button" href="#">
+              <span class="blue">Donate<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
+            </a>
+            <a class="new-button" href="#">
+              <span class="blue">Legal<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
+            </a>
+          </div>
+        </div>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Where You Can Study</a></li>
+                  <li><a href="#">What You Can Study</a></li>
+                  <li><a href="#">Study Online</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Login</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+
     </div>
-    <div class="col-sm-5">
-      <a class="new-button" href="#">
-        <span class="blue">Donate<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
-      </a>
-      <a class="new-button" href="#">
-      <span class="blue">Legal<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
-    </a>
-  </div>
-</div>
-</div>
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -46,4 +72,4 @@
 
     {% include analytics.html %}
   </body>
-</html>
+  </html>
