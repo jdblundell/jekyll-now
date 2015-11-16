@@ -21,7 +21,7 @@
           <div class="col-sm-7">
             <img src="{{ site.baseurl }}/images/DCCCDLogo.gif" alt="Dallas County Community College District" title="Dallas County Community College District">
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-5 text-aligncenter">
             <a class="new-button" href="#">
               <span class="blue">Donate<img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt=""></span>
             </a>
@@ -34,42 +34,33 @@
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Where You Can Study</a></li>
-                  <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">What You Can Study</a></li>
-                  <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Study Online</a></li>
-                  <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Contact Us</a></li>
-                  <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Login</a></li>
-                </div>
+              <ul class="nav navbar-nav">
+                <li class=""><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Where You Can Study</a></li>
+                <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">What You Can Study</a></li>
+                <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Study Online</a></li>
+                <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Contact Us</a></li>
+                <li><a href="#"><img class="svgimg" src="{{ site.baseurl }}/images/fa-arrow-right-white-circle.svg" alt="">Login</a></li>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
+
+
+
       </div>
 
-
-
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+      <div id="main" role="main" class="container">
+        {{ content }}
       </div>
-    </div>
 
-    {% include analytics.html %}
-  </body>
-  </html>
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      </div>
+
+      {% include analytics.html %}
+    </body>
+    </html>
