@@ -34,7 +34,13 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color:#0033a0;
 }
 
+h1.page-title {
+	padding:10px;
+}
 
+h3.box-title {
+	margin:0;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
