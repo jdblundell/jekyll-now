@@ -259,8 +259,8 @@ blockquote {
   border-left:8px solid #0033a0;
 }
 
-blockquote.red {
-  border-left:8px solid #e40028;
+.breadcrumb {
+  font-size:.8em;
 }
 
 .number-large {
