@@ -1,9 +1,7 @@
-@import "bootstrap.min.css";
-@import "IPTStyles.css";
 
 body {
 	width: 100%;
-    max-width: 1280px;
+    max-width: 1170px;
     margin: 10px auto 10px auto;
     font-family: "Open Sans","Segoe UI","Segoe",Helvetica,Arial,sans-serif;
 }
