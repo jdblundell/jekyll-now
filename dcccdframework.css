@@ -519,6 +519,9 @@ blockquote {
   margin:0px;
 }
 
+.wrapper-footer {
+  padding:2em;
+}
 
 /********************************************************************/
 /* CONTENT BOX #5                                                   */
