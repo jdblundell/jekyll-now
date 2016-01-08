@@ -14,6 +14,8 @@ body {
   font-size:16px;
 }
 
+.serif {font-family: "Noto Serif", Georgia, serif}
+
 /*****************************/
 /* New Colors                */
 /*****************************/
@@ -213,16 +215,16 @@ a:hover {
   text-decoration:none;
 }
 
-.PageContent a:link, .PageContent a:visited, .PageContent a:focus {
+.PageContent a:link, .PageContent a:focus, .breadcrumb a:link, .breadcrumb a:focus {
   color:#000000;
   border-bottom:1px solid #737373;
 }
-.PageContent a:visited {
+.PageContent a:visited, .breadcrumb a:visited {
   color:#0033a0;
   border-bottom:1px solid #0033a0;
 }
 
-.PageContent a:hover {
+.PageContent a:hover, .breadcrumb a:hover {
   color:#0099ff;
   border-bottom:0px solid #ffffff;
   text-decoration:none;
