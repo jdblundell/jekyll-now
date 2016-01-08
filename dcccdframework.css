@@ -223,11 +223,24 @@ a:hover {
   color:#0033a0;
   border-bottom:1px solid #0033a0;
 }
-
 .PageContent a:hover, .breadcrumb a:hover {
   color:#0099ff;
   border-bottom:0px solid #ffffff;
   text-decoration:none;
+}
+
+.header-buttons a:link, .header-buttons a:focus {
+  border-bottom:0px solid;
+  text-decoration:underline;
+}
+.header-buttons a:hover, .header-buttons a:hover {
+  text-decoration:none;
+  border-bottom:0px solid;
+}
+
+.navbar-nav>li a:hover, .navbar-nav>li a:focus {
+  text-decoration:underline;
+  border-bottom:0px solid
 }
 
 section, .section {
